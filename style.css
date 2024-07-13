@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:#33488273;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+          
+}
+
+
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.login, .about-us, .contact-us {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #334882;
+}
+
+.section-1{
+    margin-top: 100px;
+    min-height: 100vh;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background: linear-gradient(#33488273, rgba(128, 128, 128, 0.329));
+    background-size: cover;
+
+    
+}
+
+
+
+.titulo-aboutus {
+    margin-left: 30px;
+    grid-column: 2/2 ;
+    grid-row: 1/2;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.texto{
+    margin-left: 20px;
+    text-align: center;
+    grid-column: 2/2 ;
+    grid-row: 1/1;
+    font-size: 15px;
+    color: linear-gradient(rgba(128, 128, 128, 0.329),#33488273);
+    
+}
+
+.model2{
+    grid-column: 1/1 ;
+    grid-row: 1/2; 
+}
+
+.model3{
+    grid-column: 3/3 ;
+    grid-row: 1/2;
+       
+}
+
+
+.model2,.model3 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.model2:hover, .model3:hover{
+    transform: scale(1.1);
+}
+
+
+.section-2{
+    min-height: 100vh;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-image: url(./src/vid.gif);
+    background-size: cover;
+    
+
+}
+
+.login-formulario{
+    background: linear-gradient(#33488273, rgba(128, 128, 128, 0.329));
+    background-size: cover;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-top: 150px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+   
+}
+
+.formu, .titulo-iniciologin{
+    align-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    filter: none;
+    color:aliceblue;
+}
+
+.boton-login{
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color:#33488273;
+    color: beige;
+    padding: auto;
+
+}
+
+.modelo4{
+    height: 750px;
+    width: 500px;
+    grid-column: 0/2;
+    grid-row: 1/3;
+
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+   <header class="header">
+
+        <img class="logo" src="./src/logo.png" alt="Logo">
+
+        <nav class="navbar">
+        
+                <a class="login" href="#">Login</a>
+                <a  class="about-us" href="#">About Us</a>
+                <a class="contact-us" href="#">Contact Us</a>
+            
+        </nav>
+
+   </header>
+        
+      
+   <section class="section-1">
+    
+    
+   <a class="model2" href="https://www.youtube.com/watch?v=XfMBdq5iFnw" target="_blank" > <img src="./src/model2.png" alt=""></a>
+   <a class="model3" href="https://www.youtube.com/watch?v=4y0O7gAQEFU" target="_blank" > <img src="./src/model3.png" alt=""></a>
+   
+    <div class="AboutuS">
+
+        <h2 class="titulo-aboutus">About Us</h2>
+        
+        <p class="texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nobis nostrum omnis ducimus temporibus praesentium molestias accusantium 
+            earum assumenda error similique aperiam, blanditiis facilis explicabo distinctio vel animi ex amet.</p>
+    </div>
+
+   </section>
+            
+           
+   
+
+
+    <section class="section-2">
+        <img class="modelo4" src="./src/modelo4.png" alt="">
+        <div class="login-formulario">
+
+        <h2 class="titulo-iniciologin">Inicio de Sesión</h2>
+        <form class="formu" action="/login" method="POST">
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button class="boton-login" type="submit">Iniciar Sesión</button>
+        </form>
+
+        </div>
+    </section>
+
+    <section class="section-3">
+        <div class="contact-uss">
+            <h2>Contact us</h2>
+            <form action="/login" method="POST">
+                <label for="username">Nombre</label>
+                <input type="text" id="username" name="username" required>
+        
+                <label for="text">Put your message here</label>
+                <input  id="text" name="text" required>
+        
+                <button type="submit">Send</button>
+            </form>
+        
+        
+        </div>
+    </section>
+</body>
+</html>
